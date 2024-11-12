@@ -1,4 +1,7 @@
 import Header from "@/components/Header";
+import SectionOne from "@/components/sections/sectionOne";
+import SectionThree from "@/components/sections/sectionThree";
+import SectionTwo from "@/components/sections/sectionTwo";
 import SubHeader from "@/components/sub-Header";
 
 export default function Home() {
@@ -9,21 +12,11 @@ export default function Home() {
         <Header />
         <SubHeader />
       </div>
-      {/* this is the body */}
-      <div>
-        {/* first section */}
-        <div>
-          {/* filter component */}
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        {/* second section */}
-        <div></div>
-        {/* third section */}
-        <div></div>
-        {/* fourth section */}
-        <div></div>
+      {/* this is the body/section side */}
+      <div className="border flex flex-row h-full w-full">
+        <SectionOne />
+        <SectionTwo />
+        <SectionThree />
       </div>
     </div>
   );

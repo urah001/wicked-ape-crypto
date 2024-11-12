@@ -18,20 +18,6 @@ const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
           placeholder="Search....."
         />
         <SearchIcon className="h-8 w-8 rounded-md  bg-custom1" />
-        {/* <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          className="h-8 w-8 rounded-md  bg-custom1"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M10 18a8 8 0 100-16 8 8 0 000 16zM20 20l-4-4"
-          />
-        </svg> */}
       </div>
     );
   }
