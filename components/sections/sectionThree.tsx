@@ -1,7 +1,7 @@
 import React from "react";
 import FilterComponentThree from "../filterComponent/filterComponentThree";
-import FilterComponentTwo from "../filterComponent/filterComponentTwo";
-import FilterComponentOne from "../filterComponent/filterComponentOne";
+import FilterComponentTwo from "../filterComponent/filterCompTwo";
+import FilterComponentOne from "../filterComponent/filterSolanaComp";
 
 import {
   Card,

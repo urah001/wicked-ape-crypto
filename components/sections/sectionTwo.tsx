@@ -1,6 +1,6 @@
 import React from "react";
-import FilterComponentOne from "../filterComponent/filterComponentOne";
-import FilterComponentTwo from "../filterComponent/filterComponentTwo";
+import FilterComponentOne from "../filterComponent/filterSolanaComp";
+import FilterComponentTwo from "../filterComponent/filterCompTwo";
 import FilterComponentThree from "../filterComponent/filterComponentThree";
 
 import ProfileCard from "../profileCard";

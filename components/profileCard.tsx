@@ -15,7 +15,7 @@ export default function ProfileCard() {
 
           {/* Small circles positioned at the bottom edge of the profile picture */}
           <div className="absolute -bottom-4 -right-1 flex space-x-1">
-            <div className="w-10 h-10 rounded-full border border-gray-300"></div>
+            <div className="w-12 h-12 rounded-full border border-gray-300"></div>
             <div className="w-6 h-6 rounded-full border border-gray-300"></div>
           </div>
 
