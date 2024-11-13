@@ -15,7 +15,7 @@ import ProfileCard from "../profileCard";
 
 function SectionThree() {
   return (
-    <div className="flex flex-col p-2 space-x-4 w-[379px] h-100 border-[0.5px] bg-background">
+    <div className="flex flex-col space-x-1 pr-1 w-[379px] bg-background">
       <div className="flex flex-row p-2">
         {/* filter component */}
         <FilterComponentOne />
@@ -23,7 +23,7 @@ function SectionThree() {
         <FilterComponentThree />
       </div>
       {/* account / dashboard */}
-      <div className=" h-[448px] bg-background text-foreground p-0 ml-0">
+      <div className="bg-background h-[448px] text-foreground space-y-4">
         <ProfileCard />
       </div>
     </div>

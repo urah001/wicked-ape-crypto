@@ -7,7 +7,7 @@ import ProfileCard from "../profileCard";
 
 function SectionTwo() {
   return (
-    <div className="flex flex-col border-[0.5px] space-x-4 w-[379px] p-2 h-100 bg-background">
+    <div className="flex flex-col space-x-1 pr-1 w-[379px] bg-background border">
       <div className="flex flex-row p-2">
         {/* filter component */}
         <FilterComponentOne />
