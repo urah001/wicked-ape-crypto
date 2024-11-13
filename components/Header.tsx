@@ -3,9 +3,14 @@ import Image from "next/image";
 import { Input } from "@/components/ui/input";
 
 const Header = () => {
+  const size = {
+    height: 30,
+    width: 30,
+  };
+
   return (
     <>
-      <div className="flex justify-between w-full items-center p-4 bg-custom1 text-foreground">
+      <div className="flex justify-between w-full h-[50px] items-center bg-custom1 text-foreground">
         {/* First icon positioned at the top left of the page */}
         <div className="flex space-x-4 cursor-pointer">
           <div>
@@ -39,49 +44,112 @@ const Header = () => {
         </div>
 
         {/* Second side positioned at the top right of the page */}
-        <div className="flex space-x-4">
-          <div className="flex space-x-4 p-4 border ">
-            {/*-- Small Container 1 */}
-            <div className="w-20 h-20 border flex items-center justify-center">
-              1
-            </div>
-
-            {/*-- Larger Container 2 with text beside it */}
-            <div className="flex items-center space-x-2">
-              <div className="w-28 h-28 border flex items-center justify-center">
-                2
+        <div className="flex space-x-4 w-[442px] h-[30px] cursor-pointer">
+          <div className="flex space-x-4">
+            {/*--fire icon  */}
+            <div className="flex space-x-1">
+              <div className=" flex items-center justify-center">
+                <Image src="/fire.svg" alt="icon" width={21} height={27} />
               </div>
-              <div className="text-gray-700 font-semibold">Additional Text</div>
+
+              {/*-- fire badge icon */}
+              <div className="flex items-center">
+                <div className=" flex items-center justify-center">
+                  <Image
+                    src="/fireBadge.svg"
+                    alt="icon"
+                    width={21}
+                    height={21}
+                  />
+                </div>
+                {/* fire call text */}
+                <div className="w-28 h-28  flex items-center justify-center">
+                  <Image
+                    src="/fireCall.svg"
+                    alt="icon"
+                    width={82}
+                    height={13}
+                  />
+                </div>
+              </div>
             </div>
 
-            {/*-- Small Container 3 */}
-            <div className="w-20 h-20 border flex items-center justify-center">
-              3
+            {/*-- wallet */}
+            <div className="flex space-x-1">
+              <div className=" flex items-center justify-center">
+                <Image
+                  src="/walletBell.svg"
+                  alt="icon"
+                  width={25}
+                  height={20}
+                />
+              </div>
+
+              {/*-- walletbell badge  */}
+              <div className="  flex items-center justify-center">
+                <Image
+                  src="/walletBellBadge.svg"
+                  alt="icon"
+                  width={21}
+                  height={21}
+                />
+              </div>
             </div>
 
-            {/*-- Small Container 4 */}
-            <div className="w-20 h-20 border flex items-center justify-center">
-              4
+            {/*-- speaker icon */}
+            <div className="flex space-x-1">
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/speakerIcon.svg"
+                  alt="icon"
+                  width={30}
+                  height={24}
+                />
+              </div>
+
+              {/*-- speaker icon badge */}
+
+              <div className="  flex items-center justify-center">
+                <Image
+                  src="/speakerIconBadge.svg"
+                  alt="icon"
+                  width={21}
+                  height={21}
+                />
+              </div>
+            </div>
+            {/*-- messsage icon */}
+            <div className="flex space-x-1">
+              <div className="  flex items-center justify-center">
+                <Image
+                  src="/messageIcon.svg"
+                  alt="icon"
+                  width={30}
+                  height={24}
+                />
+              </div>
+
+              {/*-- message icon badge */}
+              <div className="  flex items-center justify-center">
+                <Image
+                  src="/messageBadge.svg"
+                  alt="icon"
+                  width={21}
+                  height={21}
+                />
+              </div>
             </div>
 
-            {/*-- Small Container 5 */}
-            <div className="w-20 h-20 border flex items-center justify-center">
-              5
-            </div>
-
-            {/*-- Small Container 6 */}
-            <div className="w-20 h-20 border flex items-center justify-center">
-              6
+            {/*-- profile */}
+            <div className="  flex items-center justify-center">
+              <Image
+                src="/profilePic.svg"
+                alt="icon"
+                width={size.width}
+                height={size.height}
+              />
             </div>
           </div>
-          {/* <div>
-            <Image
-              src="/HeaderIcon/colTwoIcon.svg"
-              alt="icon"
-              width={441}
-              height={30}
-            />
-          </div> */}
         </div>
       </div>
     </>
