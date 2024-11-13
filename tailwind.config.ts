@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
         custom1: "#1B1B1B",
+        tokenFilter: "#1111111",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
