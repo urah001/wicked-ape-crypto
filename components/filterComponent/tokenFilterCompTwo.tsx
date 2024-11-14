@@ -149,7 +149,7 @@ function FilterComponentTwo() {
                 "Dev Holding",
                 "Holders",
               ].map((label) => (
-                <div key={label}>
+                <div key={label} className="last:pb-[8rem]">
                   <div>{label}</div>
                   <Button variant="default" className="px-10 mr-5">
                     100

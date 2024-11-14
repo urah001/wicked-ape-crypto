@@ -1,7 +1,7 @@
 import React from "react";
 import FilterComponentOne from "../filterComponent/filterSolanaComp";
-import FilterComponentThree from "../filterComponent/filterComponentThree";
-import FilterComponentTwo from "../filterComponent/filterCompTwo";
+import FilterComponentThree from "../filterComponent/listOrderComponentThree";
+import FilterComponentTwo from "../filterComponent/tokenFilterCompTwo";
 
 import ProfileCard from "../profileCard";
 function SectionOne() {

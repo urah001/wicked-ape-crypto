@@ -1,6 +1,6 @@
 import React from "react";
-import FilterComponentThree from "../filterComponent/filterComponentThree";
-import FilterComponentTwo from "../filterComponent/filterCompTwo";
+import FilterComponentThree from "../filterComponent/listOrderComponentThree";
+import FilterComponentTwo from "../filterComponent/tokenFilterCompTwo";
 import FilterComponentOne from "../filterComponent/filterSolanaComp";
 
 import {
