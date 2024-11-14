@@ -6,10 +6,10 @@ import React, { useState } from "react";
 import { Button } from "./ui/button";
 
 export default function ProfileCard() {
-  // const [isPopupOpen, setIsPopupOpen] = useState(false);
-  // const togglePopup = () => {
-  //   setIsPopupOpen(!isPopupOpen);
-  // };
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const togglePopup = () => {
+    setIsPopupOpen(!isPopupOpen);
+  };
   return (
     <>
       <div className="relative h-[45%] rounded-md border bg-custom1 border-gray-300 p-4">
