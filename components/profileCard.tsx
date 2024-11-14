@@ -4,7 +4,6 @@ import { Slider } from "@radix-ui/react-slider";
 import Image from "next/image";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
-import Dropdown from "./dropDown";
 
 export default function ProfileCard() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -156,7 +155,7 @@ export default function ProfileCard() {
             <div className="flex flex-col justify-center border-b">
               <div className="flex flex-col">
                 <div className="ml-4">Type</div>
-                <div className="bg-background/20 text-foreground rounded-sm px-2 ml-4 py-1 w-[10rem]">
+                <div className="bg-custom1/95 border flex justify-evenly text-foreground rounded-sm px-2 ml-4 py-1 w-[10rem]">
                   <select className="bg-transparent text-foreground text-sm">
                     <option>Market Cap</option>
                     <option>test</option>
@@ -164,6 +163,14 @@ export default function ProfileCard() {
                     <option>test</option>
                     <option>test</option>
                   </select>
+                  <div className="bg-gray-500 rounded-sm h-6 pt-[6px] pl-1.5 cursor-pointer w-6">
+                    <Image
+                      src="/filterIcon/polygon.svg"
+                      alt="icon"
+                      width={14}
+                      height={14}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
