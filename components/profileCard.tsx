@@ -4,7 +4,6 @@ import { Slider } from "@radix-ui/react-slider";
 import Image from "next/image";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
-import Dropdown from "./dropDown";
 
 export default function ProfileCard() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
